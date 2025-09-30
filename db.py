@@ -4,6 +4,7 @@ import psycopg2
 # PARA IMPORTAR DOTENV
 from dotenv import load_dotenv
 import os
+load_dotenv()  # carrega as variaveis do .env
 # PARA IMPORTAR arquivos de forma facilitada (import os)
 # carrega as variaveis do .env
 # conexão com o banco de dados
